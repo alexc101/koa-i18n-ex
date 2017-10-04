@@ -7,7 +7,6 @@ async function testApi(ctx) {
     ctx.i18n.setLocale(locale);*/
 
     console.log(ctx.i18n)
-
     console.log(ctx.i18n.__('Hello'))
 
     ctx.body = {
